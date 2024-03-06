@@ -58,6 +58,50 @@ and changes made!
   551  git status
   552  vi 1.txt
   553  git status
+  554  vi  .gitignore
+  555  pipe
+  556  git pipe
+  557  history
+  558  vi 1.txt
+  559  git add 1.txt
+  560  -f
+  561  git -f
+  562  git -f 1.txt
+  563  git config advice.addIgnoredFile false
+  564  git add 1.txt
+  565  git config advice.addIgnoredFile false
+  566  git config advice.addIgnoredFile true
+  567  git add 1.txt
+  568  -f 1.txt
+  569  git -f
+  570  cd ..
+  571  cd Sub_2
+  572  ls
+  573  vi sss.png.png
+  574  vi 1.png
+  575  git add 1.png
+  576  git status
+  577  git commit -m "png file"
+  578  cd ..
+  579  cd Sub_1/
+  580  ls
+  581  vi .gitignore
+  582  git add 1.txt
+  583  -f
+  584  git -f 1.txt
+  585  git add -f 1.txt
+  586  git status
+  587  git commit -m "txt file"
+  588  git history | 1.txt
+  589  history | 1.txt
+  590  cat 1.txt
+  591  git log
+  592  git status
+  593  cd ..
+  594  git remote add origin https://github.com/Garvk5251/Assess_2310990079.git
+  595  git push -u origin master
+  596  history
+
 
 
 
