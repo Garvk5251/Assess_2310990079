@@ -1,0 +1,64 @@
+This is a text file 
+
+
+Text file opened in Sub_1 Folder :)
+and changes made!
+
+
+
+  502  mkdir Assess_2310990079
+  503  cd Assess_2310990079/
+  504  mkdir Sub_1
+  505  vi .gitignore
+  506  vi 1.txt
+  507  vi 1.html
+  508  vi 1.c
+  509  git init
+  510  git add .
+  511  ls
+  512  git commit -m "1st commit"
+  513  vi 1.html
+  514  git add 1.html
+  515  git commit -m "modified html in 2nd commit"
+  516  vi 1.c
+  517  git add 1.c
+  518  git commit -m "modified c file in 3rd commit"
+  519  mkdir Sub_2
+  520  ls
+  521  cp 1.c Sub_1
+  522  cp 1.html Sub_1
+  523  cp 1.txt Sub_1
+  524  cp .gitignore Sub_1
+  525  cp .gitignore Sub_2
+  526  cp 1.txt Sub_2
+  527  cp 1.c Sub_2
+  528  cp 1.html Sub_2
+  529  cd Sub_1/
+  530  ls
+  531  cd ..
+  532  cp .gitignore Sub_1
+  533  cd Sub_1
+  534  ls
+  535  ls -ah
+  536  vi .gitignore
+  537  vi 1.txt
+  538  git status
+  539  git add .
+  540  git commit -m "Txt file should be tracked now"
+  541  git status
+  542  cd ..
+  543  cd Sub_2/
+  544  vi ss.png
+  545  rm ss.png
+  546  ls
+  547  ls -ah
+  548  cd ..
+  549  cd Sub_1
+  550  ls
+  551  git status
+  552  vi 1.txt
+  553  git status
+
+
+
+history added
